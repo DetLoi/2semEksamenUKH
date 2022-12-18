@@ -1,0 +1,105 @@
+/* variables */
+
+:root{
+	--white: #fbf8f0;
+	--blue: #dddeff;
+	--brown: #ae5418;
+	--red: #c94506;
+	--black: #2a2b30;
+}
+
+#retningslinjer h2{
+    padding-top: 30px;
+}
+input, textarea, select{
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-top: 5px;
+}
+.bf-bodybox{
+    padding: 20px;
+    width: 80%;
+}
+.bf-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.bf-col-12{
+    width: 100%;
+}
+.bf-col-3{
+    width: 100%;
+}
+
+.bf-col-6{
+    width: 100%;
+}
+.booking-regler{
+    text-align: center;
+    padding: 20px;
+}
+#booking-ansvarlig{
+    text-align: center;
+}
+#booking-ansvarlig a{
+    font-weight: lighter;
+    color:var(--red);
+    text-decoration: underline;
+}
+
+.bf-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-y: auto;
+    padding: 20px 15px;
+    background-color: var(--blue);
+    margin: 10px;
+    border-radius: 15px;
+}
+.bf-body{
+    width: 500px;
+    background-color: bisque;
+    text-align: center;
+    align-items: center;
+}
+.faciliteter img{
+    height: 70%;
+    width: 70%;
+}
+@media screen and (min-width: 769px){
+    .bf-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 100vh;
+        overflow-y: auto;
+        padding: 20px 15px;
+        background-color: var(--blue);
+        margin: 0 auto;
+        border-radius: 15px;
+        width: 50%;
+    }
+
+    #retningslinjer{
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    .faciliteter{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .faciliteter img{
+        height: 30%;
+        width: 30%;
+    }
+}

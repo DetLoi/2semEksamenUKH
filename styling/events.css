@@ -1,0 +1,38 @@
+#more{
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+#moreBtn{
+    cursor: pointer;
+}
+#egenevent-titel{
+    padding-top:30px ;
+}
+.centreret-info h2{
+	padding-top: 30px;
+}
+/* Event billeder */
+
+#fastevent-1{
+	background-image: url("/images/event4.jpg");
+}
+#fastevent-2{
+	background-image: url("/images/hiphop.jpg");
+}
+#fastevent-3{
+	background-image: url("/images/event2.jpg");
+}
+
+#event-5{
+	background-image: url("/images/madmekka.jpg");
+}
+#event-6{
+	background-image: url("/images/runningclub.jpg");
+}
+#event-7{
+	background-image: url("/images/clothingclub.jpg");
+}
+#event-8{
+	background-image: url("/images/hiphop.jpg");
+}

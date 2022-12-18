@@ -1,0 +1,54 @@
+:root{
+	--white: #fbf8f0;
+	--blue: #dddeff;
+	--brown: #ae5418;
+	--red: #c94506;
+	--black: #2a2b30;
+}
+.slideshow p{
+    text-align: center;
+    font-weight: bold;
+}
+.slideshow img{
+    border-radius: 15px;
+    height: 70%;
+    width: 70%;
+}
+
+#link{
+    font-weight: lighter;
+    text-decoration: underline;
+    color: var(--red);
+}
+.ansat{
+    padding-top: 30px;
+    background-image: url(/images/pinkbackground.png);
+    background-size: cover;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 30px;
+}
+.ansat img{
+    height: 200px;
+}
+.ansat a{
+    font-weight: lighter;
+    text-decoration: underline;
+}
+.ansatkontakt{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+}
+.ansatkontakt img{
+    height: 30px;
+}
+@media screen and (min-width: 769px){
+    .slideshow img{
+        border-radius: 15px;
+        height: 40%;
+        width: 40%;
+    }
+}

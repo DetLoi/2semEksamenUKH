@@ -1,0 +1,55 @@
+
+.faciliteter{
+	display: flex;
+	flex-wrap: nowrap;
+	width: 90%;
+	margin: auto;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.faciliteter > h1{
+	padding: 30px;
+
+}
+.faciliteter > img{
+	padding-bottom: 30px;
+	width: 90%;
+}
+.flex-container > div > img{
+	margin-top: 10px;
+	width: 50%;
+}
+.flex-container > div > p{
+    margin-bottom: 30px;
+}
+@media screen and (min-width: 769px){
+.faciliteter{
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.faciliteter img{
+	height: 30%;
+	width: 30%;
+}
+.flex-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.flex-container > div > img{
+	margin-top: 10px;
+	width: 300px;
+	height: 300px;
+}
+#mørkekamer{
+	width: 300px;
+	height: 300px;
+}
+.flex-container > div > p{
+    margin-bottom: 30px;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+}
